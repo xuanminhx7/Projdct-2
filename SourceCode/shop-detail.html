@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Đĩa CD</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link rel="shortcut icon" href="img/st1/Rythem-logo.png">
+
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- CSS tùy chỉnh -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="container-fluid fixed-top">
+        <div class="container topbar bg-primary d-none d-lg-block">
+            <div class="d-flex justify-content-between">
+                <div class="top-info ps-2">
+                    <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#"
+                            class="text-white">250 Hoàng Quốc Việt</a></small>
+                    <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#"
+                            class="text-white">C2308j1@gmail.com</a></small>
+                </div>
+                <div class="top-link pe-2">
+                    <a href="#" class="text-white"><small class="text-white mx-2">Privacy Policy</small>/</a>
+                    <a href="#" class="text-white"><small class="text-white mx-2">Terms of Use</small>/</a>
+                    <a href="#" class="text-white"><small class="text-white ms-2">Sales and Refunds</small></a>
+                </div>
+            </div>
+        </div>
+        <div class="container px-0">
+            <nav class="navbar navbar-light bg-white navbar-expand-xl">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-primary display-6"><img src="img/st1/Rythem-logo.png" alt=""
+                            style="width: 60px; margin-left: 130px;"></h1>
+                </a>
+                <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars text-primary"></span>
+                </button>
+                <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="shop.html" class="nav-item nav-link">Shop</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <div class="d-flex m-3 me-0 nav-item">
+                        <button
+                            class="btn-search btn border border-secondary btn-md-square rounded-circle  search bg-white me-4"
+                            data-bs-toggle="modal" data-bs-target="#searchModal"><i
+                                class="fas fa-search text-primary lnr lnr-magnifier" id="search"></i></button>
+
+
+                        <a href="#" class="position-relative me-4 my-auto">
+                            <i class="fa fa-shopping-bag fa-2x"></i>
+                            <span
+                                class="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1"
+                                style="top: -5px; left: 15px; height: 20px; min-width: 20px;">3</span>
+                        </a>
+                        <a href="login/login.html" class="my-auto">
+                            <i class="fas fa-user fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Modal Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center">
+                    <div class="input-group w-75 mx-auto d-flex">
+                        <input type="search" class="form-control p-3" placeholder="Search"
+                            aria-describedby="search-icon-1">
+                        <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Search End -->
+
+
+    <div class="container-fluid page-header py-5">
+        <h1 class="text-center text-white display-6">Shop Detail</h1>
+        <ol class="breadcrumb justify-content-center mb-0">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item active text-white">Shop Detail</li>
+        </ol>
+    </div>
+
+    <div class="container-fluid py-5 mt-5">
+        <div class="container py-5">
+            <div class="row g-4 mb-5">
+                <div class="col-lg-8 col-xl-9" id="product-details">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+    <footer class="footer-area section_gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h6>About Us</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore dolore
+                            magna aliqua.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h6>Newsletter</h6>
+                        <p>Stay update with our latest</p>
+                        <div class="" id="mc_embed_signup">
+                            <form target="_blank" novalidate="true"
+                                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                                method="get" class="form-inline">
+                                <div class="d-flex flex-row">
+                                    <input class="form-control" name="EMAIL" placeholder="Enter Email"
+                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '"
+                                        required="" type="email">
+                                    <button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right"
+                                            aria-hidden="true"></i></button>
+                                </div>
+                                <div class="info"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6 col-sm-6">
+                    <div class="single-footer-widget mail-chimp">
+                        <h6 class="mb-20">Instragram Feed</h6>
+                        <ul class="instafeed d-flex flex-wrap">
+                            <li><img src="img/i1.jpg" alt=""></li>
+                            <li><img src="img/i2.jpg" alt=""></li>
+                            <li><img src="img/i3.jpg" alt=""></li>
+                            <li><img src="img/i4.jpg" alt=""></li>
+                            <li><img src="img/i5.jpg" alt=""></li>
+                            <li><img src="img/i6.jpg" alt=""></li>
+                            <li><img src="img/i7.jpg" alt=""></li>
+                            <li><img src="img/i8.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h6>Follow Us</h6>
+                        <p>Let us be social</p>
+                        <div class="footer-social d-flex align-items-center">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-behance"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
+                <p class="footer-text m-0">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is
+                    made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                        target="_blank">Colorlib</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/main1.js"></script>
+
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="js/gmaps.min.js"></script>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('product');
+
+        const products = {
+            1: {
+                name: "Võ Việt Phương - Hát Với Anh - Đĩa CD",
+                price: "450,000đ",
+                image: "img/product/ảnh/vo-viet-phuong-hat-voi-anh-dia-cd_7abc99bca6464002ac85303343b41087_grande.webp"
+            },
+            2: {
+                id: 2,
+                name: "Tùng S.A.X - 1989 Saxophone (Nhạc Không Lời) - Đĩa CD",
+                price: "500,000đ",
+                image: "img/product/ảnh/tung_sax-1989_saxophone_f34ab9dff52f4fb7b00a1993bf21b579_grande.webp",
+            },
+            3: {
+                id: 3,
+                name: "tlinh - ái album (Standard Ver.) - Đĩa CD",
+                price: "600,000đ",
+                image: "img/product/ảnh/tlinh-ai-album-standard_afbf68f2a8de4d70862490a725431ec6_grande.webp",
+            },
+            4: {
+                id: 4,
+                name: "The Luka Project - The Luka Project - Đĩa CD",
+                price: "600,000đ",
+                image: "img/product/ảnh/the_luka_project_-_the_luka_project_-_dia_cd_2357e94031ae4dd1b64d89fb9a271727_grande.webp",
+            },
+            5: {
+                id: 5,
+                name: "Phùng Khánh Linh - yesteryear (standard) - Đĩa CD",
+                price: "600,000đ",
+                image: "img/product/ảnh/phung_khanh_linh-album_dau_tay-yesteryear_0c10b7bf68f544019cf2b9fe8f267b88_grande.webp",
+            },
+            6: {
+                id: 6,
+                name: "Phùng Khánh Linh - yesteryear (standard) - Đĩa CD",
+                price: "600,000đ",
+                image: "img/product/ảnh/phung_khanh_linh-album_dau_tay-yesteryear_0c10b7bf68f544019cf2b9fe8f267b88_grande.webp",
+            },
+            7: {
+                id: 7,
+                name: "Cá Hồi Hoang - Chúng Ta Đều Muốn Một Thứ (Jewel Case with a Zine Print) - Đĩa CD",
+                price: "600,000đ",
+                image: "img/product/ảnh/oi-hoang-chung-ta-deu-muon-mot-thu-jewel-case-with-a-zine-print-dia-cd_669534dbd1b44a2d8b00456520fa6769_grande.webp",
+            },
+            8: {
+                id: 8,
+                name: "Orange - CAM'ON (Limited Boxset w. Bonus Track) - Đĩa CD",
+                price: "280.000₫",
+                image: "img/product/ảnh/20231119_meow-lac_suga-rush_cover_8cf02949ac6d47a7b05d01097c947d58_grande.webp",
+                category: "Fruits"
+            },
+            9: {
+                id: 9,
+                name: "Lê Cát Trọng Lý - Cây Lặng Gió Ngừng (Times Exclusive) - Đĩa CD",
+                price: "200.000đ",
+                image: "img/product/ảnh/amee-mongmee-mini-album_bed1ee197c8d4b49b54341920dd68e7e_grande.webp",
+                category: "Fruits"
+            },
+            10: {
+                id: 10,
+
+                name: "Bảo Anh - không biết nên vui hay buồn (E.P) - Đĩa CD",
+                price: "600,000đ",
+                image: "img/product/ảnh/be405047-5bc8-499d-b8d3-18bc64d91b42_572ee879567a4bd6b8c2f10900de69df_grande.webp",
+                category: "Fruits"
+            },
+            11: {
+                id: 11,
+
+                name: "Giáng Son - Sing My Sol - Đĩa CD",
+                price: "500.000đ",
+                image: "img/product/ảnh/cd-7uppercuts-chai-mai-ep_79e06c0bf57d433ca5a6c1c65067ea4e_grande.jpg",
+                category: "Fruits"
+            },
+            12: {
+                id: 12,
+                name: "Quang Dũng - Yêu Em Giữa Đời Quên Lãng (Limited Boxset) - Đĩa CD",
+                price: "230.000đ",
+                image: "img/product/ảnh/cd1421ed-421f-4e17-ac7c-74aac29719d3_1674e688794f4445939830c5bea2f908_grande.webp",
+                category: "Fruits"
+            },
+            13: {
+                id: 13,
+                name: "Charmy Phạm / Hương Tràm - Sweet Home - Đĩa CD",
+                price: "205.000đ",
+                image: "img/product/ảnh/da-so-toi-em-dia-cd_9cd1e1532eae41208a864dc4c940b174_grande.jpeg",
+            },
+            14: {
+                id: 14,
+                name: "Quốc Bảo - my guitar my friends 2 - Đĩa CD",
+                price: "600,000đ",
+                image: "img/product/ảnh/duc-tuan-tron-mot-kiep-yeu-lam-phuong-album-2020_7c580d7ce96a4b2c91cb833a56616659_grande.webp",
+                category: "Fruits"
+            },
+            15: {
+                id: 15,
+                name: "Thiều Bảo Trâm - 'after YOU' (Limited Photobook) - Đĩa CD",
+                price: "600,000đ",
+                image: "img/product/ảnh/dzung-dzanca-cd_front_02d0c16c51ca41ca944f0205a86b50b0_grande.jpg",
+                category: "Fruits"
+            },
+        }
+        const product = products[productId];
+        if (product) {
+            document.getElementById('product-details').innerHTML = `
+               <div class="row g-4" >
+                        <div class="col-lg-6">
+                            <div class="border rounded">
+                                <a href="#">
+                                    <img src="${product.image}" class="img-fluid rounded" alt="Image">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <h4 class="fw-bold mb-3">${product.name}</h4>
+                            <h5 class="fw-bold mb-3">${product.price}</h5>
+                            <div class="d-flex mb-4">
+                                <i class="fa fa-star text-secondary"></i>
+                                <i class="fa fa-star text-secondary"></i>
+                                <i class="fa fa-star text-secondary"></i>
+                                <i class="fa fa-star text-secondary"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="input-group quantity mb-5" style="width: 100px;">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-sm btn-minus rounded-circle bg-light border" >
+                                        <i class="fa fa-minus"></i>
+                                    </button>
+                                </div>
+                                <input type="text" class="form-control form-control-sm text-center border-0" value="1">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-sm btn-plus rounded-circle bg-light border">
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <a href=""  onclick="addToCart(${product.id})" class="btn border border-secondary rounded-pill px-4 py-2 mb-4 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                        </div>
+                       
+                     
+                    </div>
+            `;
+        } else {
+            document.getElementById('product-details').innerHTML = `
+                <p>Sản phẩm không tồn tại.</p>
+            `;
+        }
+        function addToCart(id) {
+            const product = products.find(p => p.id === id);
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+            const itemInCart = cart.find(item => item.id === id);
+            if (itemInCart) {
+                itemInCart.quantity += 1;
+            } else {
+                cart.push({ ...product, quantity: 1 });
+            }
+
+            localStorage.setItem('cart', JSON.stringify(cart));
+            alert(`${product.name} đã được thêm vào giỏ hàng!`);
+            window.location.href = "cart.html";  // Chuyển hướng đến trang giỏ hàng
+        }
+
+    </script>
+</body>
+
+</html>
